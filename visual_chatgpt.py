@@ -1172,7 +1172,7 @@ class ObjectSegmenting:
             description="useful when you only want to segment the certain objects in the picture"
                         "according to the given text"  
                         "like: segment the cat,"
-                        "or can you segment an obeject for me"
+                        "or can you segment an object for me"
                         "The input to this tool should be a comma separated string of two, "
                         "representing the image_path, the text description of the object to be found")
     def inference(self, inputs):
